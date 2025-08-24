@@ -3,17 +3,17 @@ import { Metadata } from "next";
 export const generateMetadata = ({
     title = `${process.env.NEXT_PUBLIC_APP_NAME} Labs | Autonomous Vehicles for Rural America & Beyond`,
     description = `Deep Ubuntu Labs develops autonomous vehicle technology for rural America and underserved markets worldwide. Building safe, accessible transportation solutions.`,
-    image = "/thumbnail.png",
+    image = "/images/dtftyfytf.png",
     icons = [
         {
             rel: "apple-touch-icon",
             sizes: "32x32",
-            url: "/icons/icon.svg"
+            url: "/icons/icons.svg"
         },
         {
             rel: "icon",
             sizes: "32x32",
-            url: "/icons/icon.svg"
+            url: "/icons/icons.svg"
         },
     ],
     noIndex = false
