@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const generateMetadata = ({
-    title = `${process.env.NEXT_PUBLIC_APP_NAME} Labs | Autonomous Vehicles for Rural America & Beyond`,
+    title = `Deep Ubuntu Labs | Autonomous Vehicles for Rural America & Beyond`,
     description = `Deep Ubuntu Labs develops autonomous vehicle technology for rural America and underserved markets worldwide. Building safe, accessible transportation solutions.`,
     image = "/images/dtftyfytf.png",
     icons = [
