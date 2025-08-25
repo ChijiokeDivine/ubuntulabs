@@ -16,7 +16,7 @@ const Hero = () => {
         Images.comp3,
         Images.comp4,
         Images.comp5,
-        Images.comp6,
+        // Images.comp6,
     ];
 
     return (
