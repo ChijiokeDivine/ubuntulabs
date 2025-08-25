@@ -1,21 +1,17 @@
 export const METRICS = [
     {
-        number: 25000,
-        label: "Sensor Collection",
+
+        suffix: "Sensor Collection",
         image: "/icons/metric-one.svg",
         reverse: false
     },
     {
-        number: 250,
-        suffix: "M+",
-        label: "Edge Processing",
+        suffix: "Edge Processing",
         image: "/icons/metric-two.svg",
         reverse: true
     },
     {
-        number: 98,
-        suffix: "%",
-        label: "Successful transactions",
+        suffix: "Successful transactions",
         image: "/icons/metric-three.svg",
         reverse: false
     }

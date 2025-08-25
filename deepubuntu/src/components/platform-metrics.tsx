@@ -57,18 +57,14 @@ const PlatformMetrics = () => {
                                     <AnimationContainer animation="fadeUp" delay={0.8 + (index * 0.2)}>
                                         <div className="flex flex-col">
                                             <div className="flex items-baseline gap-1">
-                                                <span className="text-4xl font-medium">
-                                                    <NumberFlow value={metric.number} />
-                                                </span>
+                                                
                                                 {metric.suffix && (
-                                                    <span className="text-4xl font-medium">
+                                                    <span className="text-2xl font-medium">
                                                         {metric.suffix}
                                                     </span>
                                                 )}
                                             </div>
-                                            <p className="text-sm text-muted-foreground">
-                                                {metric.label}
-                                            </p>
+                                            
                                         </div>
                                     </AnimationContainer>
 
@@ -82,7 +78,7 @@ const PlatformMetrics = () => {
                                         )}>
                                             <Image
                                                 src={metric.image}
-                                                alt={metric.label}
+                                                alt={metric.suffix}
                                                 width={1024}
                                                 height={1024}
                                                 className="size-full"
